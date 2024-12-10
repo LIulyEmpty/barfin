@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <script src="https://kit.fontawesome.com/8ef5abc7c0.js" crossorigin="anonymous"></script>
+          <link rel="stylesheet" type="text/css" href="style.css">
+          <title>Main page</title>
+     </head>
+     <body>
+          <div class="side-bar">
+               <i class="fa-solid fa-bars" style="font-size: 20px; 
+                                                  margin: 6px; 
+                                                  position: absolute; 
+                                                  cursor: pointer" onclick="alert('Coming soon')"></i>
+          </div>
+          <form action="" style="margin: -5px 52px;">
+               <i class="fa-solid fa-magnifying-glass"></i>
+               <input type="text" name="" id="">
+          </form>
+          <div>
+               <a href="./enterInfor/enterInfor.html" class="enterInfor">
+                    <i class="fa-solid fa-arrow-up"></i>
+               </a>
+          </div>
+
+          <div class="name-tag">
+               <select id="nametagDropdown">
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="Gau bong">Gau bong</option>
+                    <option value="Kep toc">Kep toc</option>
+                    <option value="Bom">Bom</option>
+                    <option value="Mo hinh">Mo hinh</option>
+               </select>
+               <button id="displayNametag"><i class="fa-solid fa-plus"></i></button>
+               <div class="name-tag--output" id="nametagOutput"></div>
+          </div>
+
+          <div class="show-product">
+               <div id="displayData">
+                    <img src="" alt="Uploaded image" id="displayImage" class="displayImage">
+                    <p id="displayNameProduct" class="displayData">No data available</p>
+                    <p id="displayBarcode" class="displayData">No data available</p>
+                    <p id="displayDescription" class="displayData">No data available</p>
+                    <p id="displayPrice" class="displayData">No data available</p>
+
+               </div>
+          </div>
+
+          <script src="./script.js"></script>
+     </body>
+</html>
